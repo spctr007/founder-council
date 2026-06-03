@@ -39,7 +39,9 @@ Pick two things before convening. Don't run a six-lens tribunal on a reversible 
 - **Lite (3 voices, single pass):** reversible, cheap, fast. Run **Naval + Munger + Chairman** only, in one context, skip peer review. Naval is the builder closest to a capital-light founder's reality; Munger is the killer. Swap Naval → **Jobs** when the question is about consumer taste or product soul rather than leverage. Use when being wrong is cheap or the user wants a gut-check.
 - **Full (6 voices, peer-reviewed):** the default for real decisions. All six lenses + anonymized peer review + Chairman.
 
-**Optional utility seat — the Outsider.** All six founders share the curse of knowledge; none of them is a naive stranger. For a consumer-facing idea, or one drowning in jargon, add **the Outsider** (defined in `council-roster.md`) as a seventh voice. It is not a founder and not a persona — it's a confusion detector. Offer it; don't force it.
+**Optional utility seats.** The core six are locked, but two non-founder seats can be added when the idea needs them (both defined in `council-roster.md`). Offer; don't force.
+- **The Outsider** — all six founders share the curse of knowledge; none is a naive stranger. For a consumer-facing or jargon-heavy idea, add it as a confusion detector. Gets the **Surface** version only.
+- **The Operator (Bill Gurley)** — all six founders reason top-down (vision, physics, monopoly, durability); none costs the model bottom-up. When the decision turns on the *math* rather than the vision — a contract, a margin call, a pricing change, "software vs. staffing," "should I take this client" — add the Operator to build the bottoms-up unit economics, isolate the single curve that settles it, and price the cold start. Gets the full **Framed** PR/FAQ *plus the numbers*. When present, he's lettered and scored in peer review like any seat, and the Chairman weights him via the conditional row in `chairman.md` §3.
 
 State the chosen config in one line before convening — e.g. *"Convening the full six-lens council in Evaluate mode; adding the Outsider since this is consumer-facing."* Then proceed. Read `council-roster.md` for each selected seat's lens, blind spot, forbidden move, must-produce, and clash partners.
 
@@ -250,7 +252,8 @@ founder-council/
     ├── jeff_bezos.md
     ├── charlie_munger.md
     ├── naval_ravikant.md
-    └── peter_thiel.md        the six founder system prompts
+    ├── peter_thiel.md        the six founder system prompts
+    └── bill_gurley.md        the Operator — optional unit-economics utility seat
 ```
 
 Methodology by [Andrej Karpathy](https://x.com/karpathy). This adaptation swaps different-models for six founder-lens sub-agents, and layers on the forbidden-move roster, lite/full sizing, the three-framing bias guard, Evaluate/Generate modes with a divergent→convergent phase model, and PR/FAQ intake.
