@@ -1,2 +1,6 @@
 # Agent skills (local only)
 .agents/
+
+# System / OS files
+.dstore
+.DS_Store
