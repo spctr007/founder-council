@@ -215,7 +215,7 @@ Remember the consensus caveat: the six are one model in six hats, so treat unani
 
 Save two files to the user's workspace (or the outputs directory):
 
-1. **`council-report-[timestamp].html`** — one self-contained file, inline CSS, clean and scannable: the idea at the top, the Chairman's verdict prominent (most people read only this), a simple agreement/clash visual, and collapsible sections (collapsed by default) for each lens's full response and the peer-review highlights. White background, system font stack, subtle borders, a soft accent color per lens. It should read like a briefing, not a dashboard.
+1. **`council-report-[timestamp].html`** — one self-contained file, inline CSS, clean and scannable: the idea at the top, the Chairman's verdict prominent (most people read only this), a simple agreement/clash visual, and collapsible sections (collapsed by default) for each lens's full response and the peer-review highlights. White background, system font stack, subtle borders, a soft accent color per lens. It should read like a briefing, not a dashboard. Keep the Chairman's plain voice throughout the verdict and synthesis (see `chairman.md` §7) — minimal business jargon, clear on first read; only the collapsed in-character lens excerpts keep their own idiom.
 2. **`council-transcript-[timestamp].md`** — the durable record: raw question, PR/FAQ, surface version, founder context, every verdict (with its flip line), every peer review (with scores and the revealed A/B/C → lens mapping), and the Chairman's synthesis.
 
 **Headless-safe.** Don't assume a display. Save both files, then: if a browser is available, offer to open the HTML; otherwise present the files via the file-presentation tool (or print the paths). Never block on auto-open.
