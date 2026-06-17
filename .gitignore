@@ -1,6 +1,11 @@
 # Agent skills (local only)
 .agents/
 
+# Council output files
+council-report-*.html
+council-transcript-*.md
+ideas-report-*.html
+
 # System / OS files
 .dstore
 .DS_Store
