@@ -111,7 +111,7 @@ founder-council/
 
 After a full run, two files are saved to your workspace:
 
-- **`council-report-[timestamp].html`** — self-contained HTML with inline CSS, collapsible sections per lens. Reads like a briefing.
+- **`founder-council-report-[timestamp].html`** — self-contained HTML with inline CSS, collapsible sections per lens. Reads like a briefing.
 - **`council-transcript-[timestamp].md`** — durable record: PR/FAQ, all verdicts with flip lines, peer reviews with revealed mappings, Chairman synthesis.
 
 Lite mode produces a short inline verdict only.

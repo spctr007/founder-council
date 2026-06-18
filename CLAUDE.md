@@ -24,7 +24,7 @@ The pipeline has six steps, numbered 0–5 (defined in `SKILL.md`):
 2. **Convene the lenses** — Spawn founder sub-agents in parallel (or sequential sections if no sub-agent support). Each receives its persona file as system prompt + the dispatch wrapper from `SKILL.md`.
 3. **Peer review** — Anonymize and randomize verdicts → each lens scores others on Rigor and Decision-usefulness. De-anonymize for the Chairman.
 4. **Chairman synthesis** — Load `chairman.md`, pass all verdicts de-anonymized + peer reviews → produce the structured output (Verdict, Crux, Agreement, Clashes, Blind Spots, Strongest Dissent, Recommendation, One Thing to Do First).
-5. **Report + transcript** — Save `council-report-[timestamp].html` and `council-transcript-[timestamp].md` to the workspace. Lite mode skips the HTML.
+5. **Report + transcript** — Save `founder-council-report-[timestamp].html` and `council-transcript-[timestamp].md` to the workspace. Lite mode skips the HTML.
 
 ## Key Design Constraints
 
@@ -37,7 +37,7 @@ The pipeline has six steps, numbered 0–5 (defined in `SKILL.md`):
 ## Output Files
 
 After a full run, two files are saved to the workspace:
-- `council-report-[timestamp].html` — self-contained HTML with inline CSS, collapsible sections per lens.
+- `founder-council-report-[timestamp].html` — self-contained HTML with inline CSS, collapsible sections per lens.
 - `council-transcript-[timestamp].md` — durable record: PR/FAQ, all verdicts with flip lines, all peer reviews with A/B/C mapping revealed, Chairman synthesis.
 
 Lite mode skips the HTML and produces a short inline verdict only.
