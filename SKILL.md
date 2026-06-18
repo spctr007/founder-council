@@ -49,7 +49,7 @@ State the chosen config in one line before convening — e.g. *"Convening the fu
 
 ## Step 1: Frame the idea (intake + bias guard)
 
-**A. Scan the workspace for context (≤30 seconds).** The user's ask is the tip of the iceberg, and grounded advisors beat generic ones. Quick-read `CLAUDE.md` / `claude.md`, any `memory/` folder, files the user referenced or attached, prior `council-transcript-*.md` in this folder (don't re-council old ground), and anything topic-relevant (a pricing idea → look for revenue/launch numbers). Grab the 2–3 files that ground the lenses, not everything.
+**A. Scan the workspace for context (≤30 seconds).** The user's ask is the tip of the iceberg, and grounded advisors beat generic ones. Quick-read `CLAUDE.md` / `claude.md`, any `memory/` folder, files the user referenced or attached, prior `founder-council-transcript-*.md` in this folder (don't re-council old ground), and anything topic-relevant (a pricing idea → look for revenue/launch numbers). Grab the 2–3 files that ground the lenses, not everything.
 
 **B. Frame the idea as a PR/FAQ (the *Framed* version).** Every idea enters as a one-paragraph press release plus a short FAQ, written backward from the customer (Bezos's working-backward method, used here as a genuine ideation discipline). The FAQ questions are chosen to front-load the cruxes the council always hits, so the lenses argue substance instead of chasing missing facts. Write it neutrally — *"Should I build this?"*, never *"Should I build this great idea?"*, which leaks a lean every lens inherits.
 
@@ -216,7 +216,7 @@ Remember the consensus caveat: the six are one model in six hats, so treat unani
 Save two files to the user's workspace (or the outputs directory):
 
 1. **`founder-council-report-[timestamp].html`** — one self-contained file, inline CSS, clean and scannable: the idea at the top, the Chairman's verdict prominent (most people read only this), a simple agreement/clash visual, and collapsible sections (collapsed by default) for each lens's full response and the peer-review highlights. White background, system font stack, subtle borders, a soft accent color per lens. It should read like a briefing, not a dashboard. Keep the Chairman's plain voice throughout the verdict and synthesis (see `chairman.md` §7) — minimal business jargon, clear on first read; only the collapsed in-character lens excerpts keep their own idiom.
-2. **`council-transcript-[timestamp].md`** — the durable record: raw question, PR/FAQ, surface version, founder context, every verdict (with its flip line), every peer review (with scores and the revealed A/B/C → lens mapping), and the Chairman's synthesis.
+2. **`founder-council-transcript-[timestamp].md`** — the durable record: raw question, PR/FAQ, surface version, founder context, every verdict (with its flip line), every peer review (with scores and the revealed A/B/C → lens mapping), and the Chairman's synthesis.
 
 **Headless-safe.** Don't assume a display. Save both files, then: if a browser is available, offer to open the HTML; otherwise present the files via the file-presentation tool (or print the paths). Never block on auto-open.
 
